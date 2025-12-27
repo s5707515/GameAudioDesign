@@ -9858,7 +9858,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 90
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -9884,7 +9884,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650419850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18392406, y: 0.2667576, z: -0.051939335, w: 0.94462407}
+  m_LocalRotation: {x: 0.15394548, y: 0.26826727, z: -0.04347349, w: 0.9499703}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15912,19 +15912,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1924608918928018877, guid: ccd7fa3df221fb54e888dcf44d94b51e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.94462407
+      value: 0.94997025
       objectReference: {fileID: 0}
     - target: {fileID: 1924608918928018877, guid: ccd7fa3df221fb54e888dcf44d94b51e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.18392405
+      value: 0.15394545
       objectReference: {fileID: 0}
     - target: {fileID: 1924608918928018877, guid: ccd7fa3df221fb54e888dcf44d94b51e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.26675767
+      value: 0.26826745
       objectReference: {fileID: 0}
     - target: {fileID: 1924608918928018877, guid: ccd7fa3df221fb54e888dcf44d94b51e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.051939335
+      value: -0.043473512
       objectReference: {fileID: 0}
     - target: {fileID: 1924608918928018877, guid: ccd7fa3df221fb54e888dcf44d94b51e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15944,7 +15944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1924608918928018879, guid: ccd7fa3df221fb54e888dcf44d94b51e, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1924608918928018879, guid: ccd7fa3df221fb54e888dcf44d94b51e, type: 3}
       propertyPath: m_CullingMask.m_Bits
@@ -16145,7 +16145,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 90
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -16171,8 +16171,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086132442}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20107587, y: 0.26576874, z: -0.05678292, w: 0.9411223}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.256163, y: 0.26196238, z: -0.07233926, w: 0.92764395}
+  m_LocalPosition: {x: 0.013882875, y: 0.4345181, z: 0.022620201}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26150,7 +26150,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1568006567}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 90
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -26175,7 +26175,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: 0
     m_MaxValue: 1
     m_Wrap: 0
@@ -26194,12 +26194,12 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 200
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
+    m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
@@ -26242,7 +26242,7 @@ Transform:
   m_GameObject: {fileID: 1857881847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0007686615, y: 2.74, z: 9.283144}
+  m_LocalPosition: {x: 0.00076925755, y: 2.74, z: 9.283144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27917,7 +27917,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 90
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -27943,7 +27943,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958697430}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16675696, y: 0.267656, z: -0.047091417, w: 0.9478053}
+  m_LocalRotation: {x: 0.107361324, y: 0.27007046, z: -0.030318351, w: 0.95635575}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

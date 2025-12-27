@@ -455,6 +455,7 @@
 "Assets/Samples/Cinemachine/2.8.3/Cinemachine Example Scenes/Shared/Scripts/SimpleElevator.cs"
 "Assets/Samples/Cinemachine/2.8.3/Cinemachine Example Scenes/Shared/Scripts/SpawnInCircle.cs"
 "Assets/Samples/Cinemachine/2.8.3/Cinemachine Example Scenes/Shared/Scripts/ThirdPersonFollowDistanceModifier.cs"
+"Assets/Script/ButtonSounds.cs"
 "Assets/Script/CameraController.cs"
 "Assets/Script/CoinPickup.cs"
 "Assets/Script/GameManager.cs"
