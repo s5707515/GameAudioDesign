@@ -462,6 +462,7 @@
 "Assets/Script/HearthPickup.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/PlayerController.cs"
+"Assets/Script/Player_Footsteps.cs"
 "Assets/Script/UIManager.cs"
 -langversion:9.0
 

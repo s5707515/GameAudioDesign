@@ -456,6 +456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_07
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 649dfae3fcc513a48ba47cba3947fd88, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -848,6 +852,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e59e66409c03ab40bdc0ea8d3013e1c, type: 3}
       propertyPath: m_Name
       value: Path_Collision_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e59e66409c03ab40bdc0ea8d3013e1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2477,6 +2485,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f3ff081dee643b84197be26680eee33e, type: 3}
       propertyPath: m_Name
       value: Path_Collision_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f3ff081dee643b84197be26680eee33e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5735,6 +5747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_19
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 900c280e2c601b440bd4913fa6927cde, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7840,6 +7856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_13
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3698ef492dc72b49a4ecc1e13f69ce3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9538,8 +9558,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650419850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1539454, y: 0.26826733, z: -0.043473482, w: 0.9499703}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.15394548, y: 0.26826742, z: -0.04347352, w: 0.9499703}
+  m_LocalPosition: {x: 0, y: -0.00000023841858, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10366,6 +10386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_10
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 14ce694e3e6b4724eb7384011cbd4531, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10538,6 +10562,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9c596b048d10d4b47ad758b411104b95, type: 3}
       propertyPath: m_Name
       value: Path_Collision_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c596b048d10d4b47ad758b411104b95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11804,6 +11832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_16
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37777c67318231d409e9c50ca95d6bce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12196,6 +12228,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e24231350680630428929d590390c448, type: 3}
       propertyPath: m_Name
       value: Path_Collision_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e24231350680630428929d590390c448, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12726,6 +12762,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bd7bc2400361a7419bd50f9f67faed1, type: 3}
       propertyPath: m_Name
       value: Path_Collision_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bd7bc2400361a7419bd50f9f67faed1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13992,6 +14032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_04
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9d2737b8e3709e143aa5be2fd32c95a5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14499,6 +14543,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7da6fbfc78317fa48adbf864969580f0, type: 3}
       propertyPath: m_Name
       value: Path_Collision_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7da6fbfc78317fa48adbf864969580f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15153,6 +15201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_14
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: be3a0c3fddc871d4ea7c0bb8da94e52d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15753,8 +15805,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086132442}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20107587, y: 0.2657687, z: -0.05678293, w: 0.9411223}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.14061867, y: 0.26885027, z: 0.039710093, w: 0.9520342}
+  m_LocalPosition: {x: 0.7090212, y: -1.839887, z: 1.1552563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15910,7 +15962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1096727380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Path_Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17297,6 +17349,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0d88f811c45451c4bb0fa3d96f5f7366, type: 3}
       propertyPath: m_Name
       value: Path_Collision_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d88f811c45451c4bb0fa3d96f5f7366, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19917,6 +19973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d95719ae9d387f478866f87af237a97, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20414,6 +20474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7f3e4cf168c468942987534eef5692d1, type: 3}
       propertyPath: m_Name
       value: Path_Collision_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7f3e4cf168c468942987534eef5692d1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20944,6 +21008,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cc218fbcbcee7c74ab43c5cba88fcf08, type: 3}
       propertyPath: m_Name
       value: Path_Collision_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cc218fbcbcee7c74ab43c5cba88fcf08, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22114,6 +22182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_20
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 04e3fb766c8ae4b4193991bcdbd71d1b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22516,6 +22588,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: febc852a1cfddf749b3423c917d6b444, type: 3}
       propertyPath: m_Name
       value: Path_Collision_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: febc852a1cfddf749b3423c917d6b444, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23028,13 +23104,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1688375051484567379, guid: 84868da334b0da34c901e877526fcc2c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 56990158574279846, guid: 84868da334b0da34c901e877526fcc2c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2119862116}
+    - targetCorrespondingSourceObject: {fileID: 56990158574279846, guid: 84868da334b0da34c901e877526fcc2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2119862120}
   m_SourcePrefab: {fileID: 100100000, guid: 84868da334b0da34c901e877526fcc2c, type: 3}
 --- !u!4 &1676988387 stripped
 Transform:
@@ -25439,6 +25519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_15
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b97fa2b540bd54b4a91f86cbe4c6e282, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25650,7 +25734,7 @@ Transform:
   m_GameObject: {fileID: 1857881847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0007686615, y: 2.74, z: 9.283144}
+  m_LocalPosition: {x: 0.00076806545, y: 2.74, z: 9.283144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26271,6 +26355,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba2998c2e564b0a41af7a33547569ca3, type: 3}
       propertyPath: m_Name
       value: Path_Collision_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba2998c2e564b0a41af7a33547569ca3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27105,6 +27193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_23
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed9e1deb752cffa46b0e59ebfcc4cf23, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27351,8 +27443,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958697430}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.107361294, y: 0.27007058, z: -0.030318346, w: 0.95635575}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.10736137, y: 0.27007064, z: -0.030318378, w: 0.9563557}
+  m_LocalPosition: {x: 0, y: -0.00000023841858, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29526,6 +29618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Collision_01
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4f9a2617db4deed4c917a13ecbf70540, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29746,6 +29842,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2119862120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119862113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d633973b5d3415a49bb13dc6f99d5be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereRadius: 1
+  pathLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  grassSteps: {fileID: 8300000, guid: 45eb5f18bced3894fb070310250e247f, type: 3}
+  pathSteps: {fileID: 8300000, guid: 35b78c7b81835d4438d13e197686d55d, type: 3}
+  rockSteps: {fileID: 8300000, guid: 66cc0af968891c44d851c7b5a34da7f1, type: 3}
+  stepsToPlay: {fileID: 0}
 --- !u!1001 &2123829473
 PrefabInstance:
   m_ObjectHideFlags: 0

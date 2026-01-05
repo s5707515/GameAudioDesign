@@ -1,0 +1,72 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Player_Footsteps : MonoBehaviour
+{
+
+    private AudioSource sourceRef;
+
+    private PlayerController contollerRef;
+
+
+    [SerializeField] private float sphereRadius;
+
+    [SerializeField] private LayerMask pathLayer;
+
+    [SerializeField] private AudioClip grassSteps;
+    [SerializeField] private AudioClip pathSteps;
+    [SerializeField] private AudioClip rockSteps;
+
+    [SerializeField] private AudioClip stepsToPlay;
+
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+        sourceRef = GetComponent<AudioSource>();
+        contollerRef = GetComponent<PlayerController>();
+
+        stepsToPlay = grassSteps;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(contollerRef.GetIsMoving())
+        {
+            Collider[] hitPath = Physics.OverlapSphere(transform.position, sphereRadius, pathLayer);
+
+            if (hitPath.Length > 0)
+            {
+                stepsToPlay = pathSteps;
+            }
+            else
+            {
+                stepsToPlay = grassSteps;
+            }
+
+            if (!sourceRef.isPlaying)
+            {
+                sourceRef.pitch = Random.Range(0.90f, 1.10f);
+
+                
+
+                sourceRef.PlayOneShot(stepsToPlay);
+
+                //sourceRef.pitch = 1.0f;
+            }
+
+        }
+
+       
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, sphereRadius);
+    }
+}

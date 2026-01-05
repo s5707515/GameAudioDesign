@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     public Animator anim;
 
+    public bool isMoving;
+
  
 
     private void Awake()
@@ -32,6 +34,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         theCam = Camera.main;
+        isMoving = false;
     }
 
     // Update is called once per frame
@@ -76,6 +79,27 @@ public class PlayerController : MonoBehaviour
 
         anim.SetFloat("Speed", Mathf.Abs(moveDirection.x) + Mathf.Abs(moveDirection.z));
         anim.SetBool("Grounded", charController.isGrounded);
+
+        //Check if player is moving
+
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        if(Mathf.Abs(horizontal) < 0.1 && Mathf.Abs(vertical) < 0.1)
+        {
+            isMoving = false;
+        }
+        else
+        {
+            isMoving = true;
+        }
+
+       
+    }
+
+    public bool GetIsMoving()
+    {
+        return isMoving;
     }
 
   
