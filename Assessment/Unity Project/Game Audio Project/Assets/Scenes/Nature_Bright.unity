@@ -3961,6 +3961,10 @@ PrefabInstance:
       value: Rock_01
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d94afa7d9e8e96f4593c36879c4e3391, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d94afa7d9e8e96f4593c36879c4e3391, type: 3}
       propertyPath: m_TagString
       value: Stone
       objectReference: {fileID: 0}
@@ -5403,7 +5407,7 @@ GameObject:
   - component: {fileID: 365077669}
   - component: {fileID: 365077668}
   - component: {fileID: 365077667}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PolyShape_Rock_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5938,6 +5942,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d48812d14e53d2341be208ebb6462fc3, type: 3}
       propertyPath: m_Name
       value: Rock_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d48812d14e53d2341be208ebb6462fc3, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d48812d14e53d2341be208ebb6462fc3, type: 3}
       propertyPath: m_TagString
@@ -8659,7 +8667,7 @@ GameObject:
   - component: {fileID: 577961239}
   - component: {fileID: 577961238}
   - component: {fileID: 577961237}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PolyShape_Rock_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9558,7 +9566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650419850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15394548, y: 0.26826733, z: -0.043473512, w: 0.9499703}
+  m_LocalRotation: {x: 0.15394543, y: 0.26826733, z: -0.043473504, w: 0.94997025}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13760,7 +13768,7 @@ GameObject:
   - component: {fileID: 957894185}
   - component: {fileID: 957894184}
   - component: {fileID: 957894183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PolyShape_Rock_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13868,7 +13876,7 @@ GameObject:
   - component: {fileID: 965955376}
   - component: {fileID: 965955375}
   - component: {fileID: 965955374}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PolyShape_Rock_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15805,8 +15813,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086132442}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21584773, y: 0.2648431, z: -0.060954433, w: 0.9378446}
-  m_LocalPosition: {x: -0.0037367344, y: 0.118379116, z: -0.006088257}
+  m_LocalRotation: {x: 0.20107588, y: 0.26576877, z: -0.056782924, w: 0.9411223}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16628,6 +16636,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76cd5bb1b468c0a4a97a1eac1a8952fe, type: 3}
       propertyPath: m_Name
       value: Rock_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76cd5bb1b468c0a4a97a1eac1a8952fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 76cd5bb1b468c0a4a97a1eac1a8952fe, type: 3}
       propertyPath: m_TagString
@@ -18426,6 +18438,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d48812d14e53d2341be208ebb6462fc3, type: 3}
       propertyPath: m_Name
       value: Rock_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d48812d14e53d2341be208ebb6462fc3, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d48812d14e53d2341be208ebb6462fc3, type: 3}
       propertyPath: m_TagString
@@ -25734,7 +25750,7 @@ Transform:
   m_GameObject: {fileID: 1857881847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0007690191, y: 2.74, z: 9.283144}
+  m_LocalPosition: {x: 0.0007686615, y: 2.74, z: 9.283144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27443,7 +27459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958697430}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10736135, y: 0.27007055, z: -0.030318357, w: 0.95635575}
+  m_LocalRotation: {x: 0.107361324, y: 0.27007058, z: -0.030318353, w: 0.9563557}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -28674,7 +28690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2044400256}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29854,13 +29870,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d633973b5d3415a49bb13dc6f99d5be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sphereRadius: 1
+  sphereRadius: 0.8
   pathLayer:
     serializedVersion: 2
     m_Bits: 64
+  rockLayer:
+    serializedVersion: 2
+    m_Bits: 128
   grassSteps: {fileID: 8300000, guid: 979e57d628d721647a683352229641be, type: 3}
   pathSteps: {fileID: 8300000, guid: 35b78c7b81835d4438d13e197686d55d, type: 3}
-  rockSteps: {fileID: 8300000, guid: 66cc0af968891c44d851c7b5a34da7f1, type: 3}
+  rockSteps: {fileID: 8300000, guid: fe354d6996a8db0428524d2a280b548c, type: 3}
   stepsToPlay: {fileID: 0}
 --- !u!1001 &2123829473
 PrefabInstance:

@@ -13,6 +13,7 @@ public class Player_Footsteps : MonoBehaviour
     [SerializeField] private float sphereRadius;
 
     [SerializeField] private LayerMask pathLayer;
+    [SerializeField] private LayerMask rockLayer;
 
     [SerializeField] private AudioClip grassSteps;
     [SerializeField] private AudioClip pathSteps;
@@ -35,8 +36,10 @@ public class Player_Footsteps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(contollerRef.GetIsMoving())
+        if(contollerRef.GetIsMoving() &!sourceRef.isPlaying)
         {
+            //Check if player is ontop of path
+
             Collider[] hitPath = Physics.OverlapSphere(transform.position, sphereRadius, pathLayer);
 
             if (hitPath.Length > 0)
@@ -45,19 +48,31 @@ public class Player_Footsteps : MonoBehaviour
             }
             else
             {
-                stepsToPlay = grassSteps;
+                //Check if player is ontop of a rock
+                hitPath = Physics.OverlapSphere(transform.position, sphereRadius, rockLayer);
+
+                if (hitPath.Length > 0)
+                {
+                    stepsToPlay = rockSteps;
+                }
+                else
+                {
+                    //Player must be on grass
+                    stepsToPlay = grassSteps;
+                }
+
+
             }
 
-            if (!sourceRef.isPlaying)
-            {
-                sourceRef.pitch = Random.Range(0.90f, 1.10f);
+           
+            sourceRef.pitch = Random.Range(0.90f, 1.10f);
 
                 
 
-                sourceRef.PlayOneShot(stepsToPlay);
+            sourceRef.PlayOneShot(stepsToPlay);
 
                 //sourceRef.pitch = 1.0f;
-            }
+            
 
         }
 
