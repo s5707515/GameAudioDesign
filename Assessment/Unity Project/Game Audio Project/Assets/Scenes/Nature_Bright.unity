@@ -9558,8 +9558,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650419850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15394548, y: 0.26826742, z: -0.04347352, w: 0.9499703}
-  m_LocalPosition: {x: 0, y: -0.00000023841858, z: 0}
+  m_LocalRotation: {x: 0.15394548, y: 0.26826733, z: -0.043473512, w: 0.9499703}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15805,8 +15805,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086132442}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.14061867, y: 0.26885027, z: 0.039710093, w: 0.9520342}
-  m_LocalPosition: {x: 0.7090212, y: -1.839887, z: 1.1552563}
+  m_LocalRotation: {x: 0.21584773, y: 0.2648431, z: -0.060954433, w: 0.9378446}
+  m_LocalPosition: {x: -0.0037367344, y: 0.118379116, z: -0.006088257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25734,7 +25734,7 @@ Transform:
   m_GameObject: {fileID: 1857881847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00076806545, y: 2.74, z: 9.283144}
+  m_LocalPosition: {x: 0.0007690191, y: 2.74, z: 9.283144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27443,8 +27443,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958697430}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10736137, y: 0.27007064, z: -0.030318378, w: 0.9563557}
-  m_LocalPosition: {x: 0, y: -0.00000023841858, z: 0}
+  m_LocalRotation: {x: 0.10736135, y: 0.27007055, z: -0.030318357, w: 0.95635575}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29858,7 +29858,7 @@ MonoBehaviour:
   pathLayer:
     serializedVersion: 2
     m_Bits: 64
-  grassSteps: {fileID: 8300000, guid: 45eb5f18bced3894fb070310250e247f, type: 3}
+  grassSteps: {fileID: 8300000, guid: 979e57d628d721647a683352229641be, type: 3}
   pathSteps: {fileID: 8300000, guid: 35b78c7b81835d4438d13e197686d55d, type: 3}
   rockSteps: {fileID: 8300000, guid: 66cc0af968891c44d851c7b5a34da7f1, type: 3}
   stepsToPlay: {fileID: 0}
