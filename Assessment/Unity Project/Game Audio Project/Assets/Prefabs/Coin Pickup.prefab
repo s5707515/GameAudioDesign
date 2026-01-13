@@ -67,9 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e9e709626a4874d87b4b8b3e925f34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin1: {fileID: 8300000, guid: f8ef5aaca3f34544ba7887b48e73f7b0, type: 3}
-  coin2: {fileID: 8300000, guid: c658a8427841ee94480a520c4a417b35, type: 3}
-  coin3: {fileID: 8300000, guid: e4a3fd6266c1c2a4382f4564daddab5a, type: 3}
+  coinSFX: {fileID: 8300000, guid: f8ef5aaca3f34544ba7887b48e73f7b0, type: 3}
 --- !u!1001 &4728792446451492729
 PrefabInstance:
   m_ObjectHideFlags: 0

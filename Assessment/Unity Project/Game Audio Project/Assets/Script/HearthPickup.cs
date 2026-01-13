@@ -19,6 +19,7 @@ public class HeartPickup : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            playerSourceRef.pitch = Random.Range(0.90f, 1.10f);
             playerSourceRef.PlayOneShot(heartPickUpSound);
             DestroyHeart();
         }
